@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest.json",
+  "name": "lolcode-console",
+  "version": "0.0.1",
+  "author": "Yash Singh",
+  "minimum_chrome_version": "10.0",
+  "devtools_page": "devtools.html",
+  "manifest_version": 3,
+  "icons": {
+    "48": "icons/lolcode48.png",
+    "128": "icons/lolcode128.png",
+    "256": "icons/lolcode256.png"
+  }
+}

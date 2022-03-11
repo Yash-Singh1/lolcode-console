@@ -1,0 +1,20 @@
+{
+  "name": "lolcode-console",
+  "version": "0.0.1",
+  "description": "Chrome DevTools console for LOLCODE",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "chrome",
+    "console",
+    "devtools",
+    "lolcode"
+  ],
+  "author": "Yash Singh",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.65.2",
+    "jquery": "^3.6.0",
+    "lolcode": "^0.1.2"
+  }
+}

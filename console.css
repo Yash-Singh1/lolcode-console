@@ -1,0 +1,55 @@
+body {
+  padding: 2%;
+  color: #eee;
+}
+
+.prompt::before,
+.log::before {
+  content: '$';
+  font-weight: bolder;
+  color: aqua;
+  margin-right: 5px;
+}
+
+.CodeMirror-cursor {
+  border-color: white;
+}
+
+.CodeMirror {
+  background: none;
+  color: #eee;
+}
+
+.prompt .CodeMirror,
+.log .CodeMirror {
+  width: calc(100% - 20px);
+  display: inline-block;
+}
+
+.prompt .CodeMirror {
+  vertical-align: -283.5px;
+}
+
+.log .CodeMirror {
+  vertical-align: text-top;
+  margin-top: -3px;
+  height: min-content;
+}
+
+.output {
+  display: block;
+  width: 100%;
+  padding: 3px;
+  border-radius: 2px;
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.output .CodeMirror {
+  height: max-content;
+  margin-left: 9px;
+}
+
+.output.error {
+  background: indianred;
+}
